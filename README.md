@@ -1,7 +1,7 @@
 # MNIST for CoreML (CNN)
 
 ### Description
-This is the MNIST dataset implemented in Apple's new framework CoreML. The MNIST dataset can classify handwritten (drawn) digits from an image and outputs a prediction from 0-9. The model was built with Keras 1.2.2.
+This is the MNIST dataset implemented in Apple's new framework CoreML. The MNIST dataset can predict handwritten (drawn) digits from an image and outputs a prediction from 0-9. The model was built with Keras 1.2.2.
 
 To test this model you can open the `MNISTPrediction.xcodeproj` and run it on your device (iOS 11 and Xcode 9 is required). To test further images just add them to the project and replace my testing with yours.
 
