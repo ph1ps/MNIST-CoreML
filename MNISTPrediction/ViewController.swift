@@ -49,12 +49,7 @@ class ViewController: UIViewController {
             return
         }
         
-        let count = result.prediction.count
-        let ptr = result.prediction.dataPointer
-        let buffer = UnsafeBufferPointer(start: ptr.assumingMemoryBound(to: Double.self), count: count)
-        let array = Array(buffer) as [Double]
-        
-        print(array.index(of: 1.0) ?? "couldn't find any prediction")
+        print(result.classLabel)
     }
 
     override func didReceiveMemoryWarning() {

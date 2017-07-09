@@ -12,7 +12,7 @@
 		252316741EF71675008E3527 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 252316721EF71675008E3527 /* Main.storyboard */; };
 		252316761EF71675008E3527 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 252316751EF71675008E3527 /* Assets.xcassets */; };
 		252316791EF71675008E3527 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 252316771EF71675008E3527 /* LaunchScreen.storyboard */; };
-		256933B51EF81FC2003997BB /* MNIST.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 256933B41EF81FB8003997BB /* MNIST.mlmodel */; };
+		259082C91F1295FE00548D18 /* MNIST.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 259082C81F1295FB00548D18 /* MNIST.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		252316751EF71675008E3527 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		252316781EF71675008E3527 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2523167A1EF71675008E3527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		256933B41EF81FB8003997BB /* MNIST.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MNIST.mlmodel; sourceTree = "<group>"; };
+		259082C81F1295FB00548D18 /* MNIST.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MNIST.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 		2523166D1EF71675008E3527 /* MNISTPrediction */ = {
 			isa = PBXGroup;
 			children = (
-				256933B41EF81FB8003997BB /* MNIST.mlmodel */,
+				259082C81F1295FB00548D18 /* MNIST.mlmodel */,
 				2523166E1EF71675008E3527 /* AppDelegate.swift */,
 				252316701EF71675008E3527 /* ViewController.swift */,
 				252316721EF71675008E3527 /* Main.storyboard */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				256933B51EF81FC2003997BB /* MNIST.mlmodel in Sources */,
+				259082C91F1295FE00548D18 /* MNIST.mlmodel in Sources */,
 				252316711EF71675008E3527 /* ViewController.swift in Sources */,
 				2523166F1EF71675008E3527 /* AppDelegate.swift in Sources */,
 			);
