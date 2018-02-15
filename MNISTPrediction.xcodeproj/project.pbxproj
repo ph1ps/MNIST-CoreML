@@ -12,6 +12,7 @@
 		252316741EF71675008E3527 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 252316721EF71675008E3527 /* Main.storyboard */; };
 		252316761EF71675008E3527 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 252316751EF71675008E3527 /* Assets.xcassets */; };
 		252316791EF71675008E3527 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 252316771EF71675008E3527 /* LaunchScreen.storyboard */; };
+		253087DA2035F8D1008F89B4 /* UIImage+PixelBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 253087D92035F8D1008F89B4 /* UIImage+PixelBuffer.swift */; };
 		256933B51EF81FC2003997BB /* MNIST.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 256933B41EF81FB8003997BB /* MNIST.mlmodel */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		252316751EF71675008E3527 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		252316781EF71675008E3527 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2523167A1EF71675008E3527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		253087D92035F8D1008F89B4 /* UIImage+PixelBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+PixelBuffer.swift"; sourceTree = "<group>"; };
 		256933B41EF81FB8003997BB /* MNIST.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MNIST.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				256933B41EF81FB8003997BB /* MNIST.mlmodel */,
+				253087D92035F8D1008F89B4 /* UIImage+PixelBuffer.swift */,
 				2523166E1EF71675008E3527 /* AppDelegate.swift */,
 				252316701EF71675008E3527 /* ViewController.swift */,
 				252316721EF71675008E3527 /* Main.storyboard */,
@@ -94,7 +97,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Philipp Gabriel";
 				TargetAttributes = {
 					2523166A1EF71675008E3527 = {
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				253087DA2035F8D1008F89B4 /* UIImage+PixelBuffer.swift in Sources */,
 				256933B51EF81FC2003997BB /* MNIST.mlmodel in Sources */,
 				252316711EF71675008E3527 /* ViewController.swift in Sources */,
 				2523166F1EF71675008E3527 /* AppDelegate.swift in Sources */,
@@ -186,6 +190,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -241,6 +247,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -276,7 +284,7 @@
 				DEVELOPMENT_TEAM = Q5MZT8NG66;
 				INFOPLIST_FILE = MNISTPrediction/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.gbrl.MNISTPrediction;
+				PRODUCT_BUNDLE_IDENTIFIER = io.gbrl.MNIST;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -290,7 +298,7 @@
 				DEVELOPMENT_TEAM = Q5MZT8NG66;
 				INFOPLIST_FILE = MNISTPrediction/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = io.gbrl.MNISTPrediction;
+				PRODUCT_BUNDLE_IDENTIFIER = io.gbrl.MNIST;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
